@@ -1,0 +1,256 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@1,300&display=swap');
+*{
+    margin: 0; 
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Poppins', sans-serif;
+}
+
+.container{
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+    overflow: hidden;
+    padding: 80px 0;
+    height: auto;
+}
+
+.container1{
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+    overflow: hidden;
+    padding: 80px 0;
+    height: auto;
+}
+
+.hero{
+    width: 100%;
+    min-height: 100vh;
+    background: linear-gradient(180deg, #377fe4 0%, #ffffff 100%);
+    background-size: cover;
+    background-position: center center;
+    height: calc(100vh - 80px);
+}
+
+
+.nav_hero{
+    color: #fff;
+    height: 70px;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.nav_container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: inherit;
+    padding: 0;    
+}
+
+.logo_name{
+    font-size: 35px;
+    color: rgb(0, 0, 0);
+
+}
+
+.link{
+    display: inline-block;
+    color: #000000;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 500;
+    padding: 15px;
+}
+
+.link--active{
+    color: #1813aa;
+    font-weight: 700;
+}
+
+.point{
+    color: #0c0a8e;
+
+}
+
+.hero_main{
+    height: calc(100vh - 70px);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50;
+}
+
+.hero_textos{
+    width: 60%;
+}
+
+.title{
+    font-size: 56px;
+    font-weight: 300;
+    color: rgb(0, 0, 0);
+}
+
+.title_active{
+    color: #0c0a8e;
+    font-weight: 700;
+}
+
+.copy{
+    font-size: 18px;
+    color: rgb(0, 0, 0);
+
+    text-shadow: var(--shadow) var(--color_shadow);
+    margin: 15px 0;
+}
+
+.copy_active{
+    font-weight: 700;
+    color: #0c0a8e;
+}
+
+.cta{
+    padding: 20px 30px;
+    display: inline-block;
+    background: linear-gradient(180deg, #aef2f1 0%, #ffffff 100%);
+    text-decoration: none;
+    color: #000000;
+    font-weight: 700;
+    box-shadow: var(--shadow) var(--color_shadow);
+    border-radius: 6px;
+}
+
+.contact{
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+    color: rgb(0, 0, 0);
+}
+
+.item_contact{
+    width: 25%;
+    padding: 60px;
+    text-align: center;
+    background: -webkit-linear-gradient(top, #69f17d, rgb(197, 248, 208) 50%);
+}
+
+.item_contact--gold{
+    background: linear-gradient(180deg, #f0dec1 0%, #f4bd78 100%);
+    color: var(--black2);
+}
+
+.contact_icon{
+    font-size: 20px;
+    color: var(--black1);
+    line-height: 20px;
+    margin-right: 4px;
+}
+
+.contact_icon-modifier{
+    color: var(--black1);
+}
+
+.contact_title{
+    font-size: 16px;
+    line-height: 20px;
+}
+
+
+.texto{
+    text-align: center;
+    width: 100%;
+    padding: 20px 30px;
+
+
+}
+
+
+.tit{
+    font-size: 56px;
+    font-weight: 300;
+    text-align: center;
+    color: #efb041
+    
+}
+
+
+
+.mockup{
+    display:block;
+margin:auto;
+}
+
+.slide{
+    text-align: right;
+}
+
+
+  
+  .containe{
+    margin: auto;
+    background-color: rgb(0, 0, 0);
+    width: 800px;
+    padding: 30px;
+  }
+  
+  ul, li {
+      padding: 0;
+      margin: 0;
+      list-style: none;
+  }
+  
+  ul.slider{
+    position: relative;
+    width: 800px;
+    height: 300px;
+  }
+  
+  ul.slider li {
+      position: absolute;
+      left: 0px;
+      top: 0px;
+      opacity: 0;
+      width: inherit;
+      height: inherit;
+      transition: opacity .5s;
+      background:#fff;
+  }
+  
+  ul.slider li img{
+    width: 96.26%;
+    height: 300px;
+    object-fit: cover;
+  }
+  
+  ul.slider li:first-child {
+      opacity: 1; /*Mostramos el primer <li>*/
+  }
+  
+  ul.slider li:target {
+      opacity: 1; /*Mostramos el <li> del enlace que pulsemos*/
+  }
+  
+  .menu{
+    text-align: center;
+    margin: 20px;
+  }
+  
+  .menu li{
+    display: inline-block;
+    text-align: center;
+  }
+  
+  .menu li a{
+    display: inline-block;
+    color: white;
+    text-decoration: none;
+    background-color: grey;
+    padding: 10px;
+    width: 20px;
+    height: 20px;
+    font-size: 20px;
+    border-radius: 100%;
+  }

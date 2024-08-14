@@ -1,0 +1,123 @@
+ body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    background-image: url(images/fondoLogin.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+
+
+
+* {
+    box-sizing: border-box;
+}
+
+.contenedor {
+    background: -webkit-linear-gradient(top, #ffffff, #47f3f6 85%);
+	width: 600px;
+	height: 500px;
+	padding-bottom: 20px;
+	position: absolute;
+	top:50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	margin: auto;
+  padding: 50px 50px 20px 50px;
+}
+
+.contenedor1 {
+    background: -webkit-linear-gradient(top, #ffffff, #63e86c 85%);
+	width: 600px;
+	height: 500px;
+	padding-bottom: 20px;
+	position: absolute;
+	top:50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	margin: auto;
+  padding: 50px 50px 20px 50px;
+}
+
+.formulario {
+    margin-top: 150px;
+    padding: 3px;
+}
+
+h1 {
+    text-align: center;
+    color: #1a2537;
+    font-size: 40px;
+}
+
+input[type="text"],
+input[type="password"],
+input[type="email"] {
+    font-size: 20px;
+    width: 80%;
+    padding: 10px;
+    border: none;
+}
+
+.input-contenedor {
+    margin-bottom: 15px;
+    width: 95%;
+    border: 1px solid rgb(0, 0, 0);
+}
+
+.icon {
+    min-width: 50px;
+    text-align: center;
+    color: rgb(20, 8, 126);
+}
+
+.button {
+    border: none;
+    width: 95%;
+    color: white;
+    font-size: 20px;
+    background: #1a2537;
+    padding: 15px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.button:hover {
+    background: cadetblue;
+}
+
+p {
+    text-align: center;
+}
+
+.link {
+    text-decoration: none;
+    color: #ff0000;
+}
+
+.link:hover {
+    background: cadetblue;
+}
+
+.error{
+    background: -webkit-linear-gradient(top, #fc0404, #47f3f6 85%);
+	width: 60x;
+	height: 40px;
+	padding-bottom: 20px;
+	position: absolute;
+	top:50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	margin: auto;
+  padding: 50px 50px 20px 50px;
+}
+
+@media screen and (max-width:768px) {
+    .formulario {
+        margin: auto;
+        width: 500px;
+        margin-top: 150px;
+        border-radius: 2%;
+    }
+}
+ 
